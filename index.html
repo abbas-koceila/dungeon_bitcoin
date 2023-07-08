@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dungeon Explorer</title>
+    <link href='https://css.gg/close.css' rel='stylesheet'>
+    <link href='https://css.gg/arrow-left-r.css' rel='stylesheet'>
+    <link href='https://css.gg/arrow-down-r.css' rel='stylesheet'>
+    <link href='https://css.gg/arrow-right-r.css' rel='stylesheet'>
+    <link href='https://css.gg/arrow-up-r.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/interface.js" defer></script>
+    
+
+</head>
+
+<body>
+    <header>
+        <h1> Dungeon Explorer</h1>
+
+    </header>
+    <main>
+        <div id="center">
+            <div id="scoreANDenergie">
+                <p id="energie"> energie: 40</p>  <!-- affiche l'energie --> 
+                <p id="score">score: 0 </p>  <!-- affiche le score --> 
+                <button id="close" class="btn"><i class="gg-close"></i></button>
+
+            </div>
+            <div id="container">
+                <p id="scorbarr"></p>  <!-- affiche la barre d energie --> 
+            </div>
+
+        </div>
+
+        <div id="map">   <!-- affiche la map du jeux --> 
+
+        </div>
+
+        <div id="fleche">   <!-- fleche up right down left -->   
+            <div> <button id="up" class="btn"><i class="gg-arrow-up-r"></i></button> </div>
+            <div id="threeBtn">
+                <button id="left" class="btn"><i class="gg-arrow-left-r"></i></button>
+                <button id="down" class="btn"><i class="gg-arrow-down-r"></i></button>
+                <button id="right" class="btn"><i class="gg-arrow-right-r"></i></button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
